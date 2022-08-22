@@ -81,15 +81,6 @@
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 
     }
-    .dot {
-      height:12px;
-      width:12px;
-      background-color:yellow;
-      border-radius:10px;
-      position:absolute;
-      right:635px;
-
-    }
     .three {
         font-size:30px;
       font-style:bold;
@@ -197,3 +188,38 @@
       bottom:228px;
       left:290px;
       }
+
+      
+ 
+  .dot {
+      height:12px;
+      width:12px;
+      background-color:yellow;
+      border-radius:10px;
+      position:absolute;
+      left:633px;
+
+    }
+
+    
+  .dot {
+      height:12px;
+      width:12px;
+      background-color:yellow;
+      border-radius:10px;
+      position: absolute;
+      left:485px;
+  }
+
+
+  @media (min-width:1000px) {
+      .dot {
+      height:12px;
+      width:12px;
+      background-color:yellow;
+      border-radius:10px;
+      position: absolute;
+      left:635px;
+  }
+
+  }
